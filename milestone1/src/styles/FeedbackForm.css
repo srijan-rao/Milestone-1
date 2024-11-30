@@ -1,0 +1,33 @@
+.feedback-container {
+    padding: 20px;
+  }
+  
+  .feedback-container form label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .feedback-container form input, 
+  .feedback-container form textarea, 
+  .feedback-container form select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .submit-feedback {
+    background-color: #ff6347;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .submit-feedback:hover {
+    background-color: #e5533d;
+  }
+  
